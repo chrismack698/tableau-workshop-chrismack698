@@ -549,7 +549,7 @@
                 <run bold='true' fontcolor='#e15759'><![CDATA[<[federated.1a1ykoo18qrpzl171w44o1gujlhl].[usr:Calculation_2042382449499414533:qk]>]]></run>
                 <run bold='true' fontcolor='#4e79a7'><![CDATA[<[federated.1a1ykoo18qrpzl171w44o1gujlhl].[usr:Calculation_2042382449499787270:qk]>]]></run>
                 <run>Æ&#10;&#10;</run>
-                <run bold='true'><![CDATA[Historical Average Price for <[federated.1a1ykoo18qrpzl171w44o1gujlhl].[none:name:nk]>]]></run>
+                <run bold='true'><![CDATA[Historical Average Big Mac Price for <[federated.1a1ykoo18qrpzl171w44o1gujlhl].[none:name:nk]>]]></run>
                 <run>Æ&#10;</run>
                 <run fontname='Tableau Regular'><![CDATA[<Sheet name="tooltip" maxwidth="600" maxheight="400" filter="<All Fields>">]]></run>
               </formatted-text>
@@ -738,8 +738,8 @@
         <devicelayout auto-generated='true' name='Phone'>
           <size maxheight='1350' minheight='1350' sizing-mode='vscroll' />
           <zones>
-            <zone h='100000' id='12' type-v2='layout-basic' w='100000' x='0' y='0'>
-              <zone h='99200' id='11' param='vert' type-v2='layout-flow' w='98858' x='571' y='400'>
+            <zone h='100000' id='14' type-v2='layout-basic' w='100000' x='0' y='0'>
+              <zone h='99200' id='13' param='vert' type-v2='layout-flow' w='98858' x='571' y='400'>
                 <zone fixed-size='280' h='100700' id='3' is-fixed='true' is-scaled='1' param='C:/Users/chris/Downloads/Copy of The Big Mac Index (2011-2021) (1).png' type-v2='bitmap' w='101357' x='-214' y='-200'>
                   <zone-style>
                     <format attr='border-color' value='#000000' />
@@ -818,7 +818,7 @@
     </dashboard>
   </dashboards>
   <windows saved-dpi-scale-factor='1.5' source-height='44'>
-    <window class='worksheet' name='map'>
+    <window class='worksheet' maximized='true' name='map'>
       <cards>
         <edge name='left'>
           <strip size='160'>
@@ -857,7 +857,7 @@
       </viewpoint>
       <simple-id uuid='{81C013EB-6EDA-4065-B522-78805BCD33B6}' />
     </window>
-    <window class='dashboard' maximized='true' name='index dashboard'>
+    <window class='dashboard' name='index dashboard'>
       <viewpoints>
         <viewpoint name='Sheet 3' />
         <viewpoint name='map'>
